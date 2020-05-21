@@ -10,6 +10,10 @@
 
 3.Bracket Pair Colorizer 2 (같은 묶음을 찾아서 같은 컬러로 표현)
 
+4.material icon theme(아이콘 테마)
+
+5.browsersync-jeremy rajan(브라우저싱크)
+
 #### 기본세팅
 
 setting- tab size:2 , zoom:on
@@ -19,41 +23,43 @@ setting- tab size:2 , zoom:on
 설정아이콘-usersnippet-html-설정 뒤 저장
 
 ``` html
-    "Print to console": {
-    "prefix": "[단축키로 사용할 문자]",
-    "body": [
-    "<!DOCTYPE html>",
+	  "Print to console": {
+		"prefix": "lee",
+		"body": [
+		"<!DOCTYPE html>",
     "<html lang=\"ko-KR\">",
     "<head>",
     "<meta charset=\"UTF-8\">",
-    "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
-    "<meta name=\"viewport\" content=\"width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5\">",
-        
-    "<link rel=\"stylesheet\" href=\"./font/myfont/fonts.css\">",
-    "<link rel=\"stylesheet\" href=\"./css/base/reset.css\">",
-    "<link rel=\"stylesheet\" href=\"./css/base/common.css\">",
-    "<link rel=\"stylesheet\" href=\"./css/src/common.css\">",
-        
+		"<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+		"<meta name=\"viewport\" content=\"width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5\">",
+		
+		"<!-- <link rel=\"stylesheet\" href=\"../fonts/\"> -->",
+    "<link rel=\"stylesheet\" href=\"../css/base/reset.css\">",
+    "<link rel=\"stylesheet\" href=\"../css/base/common.css\">",
+    "<link rel=\"stylesheet\" href=\"../css/src/common.css\">",
+
     "<!--[if IE]>",
     "<script src=\"./ie/html5shiv/dist/html5shiv.min.js\"></script>",
-    "<script src=\"./pie/PIE.js\"></script>",
-    "<script src=\"../ie/respond/dest/respond.min.js\"></script>",
-    "<![endif]-->",
+		"<script src=\"./pie/PIE.js\"></script>",
+		"<script src=\"../ie/respond/dest/respond.min.js\"></script>",
+		"<![endif]-->",
+		
+		"<title>Document</title>",
+		"</head>",
+		"<body>",
+		
+		"<!-- layout -->",
 
-    "<title>Document</title>",
-    "</head>",
-        
-    "<body>",
-    "<-- layout -->",
-        
-    "<-- script -->",
-        
-    "<script></script>",
-    "</body>",
-        
-    "</html>",
-    ],
-    "description": "html 기본 형식 설정"
+		"<!-- script -->",
+		"<script src=\"../js/base/jquery-3.5.1.min.js\"></script>",
+		"<script src=\"../js/base/jquery-ui.min.js\"></script>",
+		"<script src=\"../js/src/\"></script>",
+
+		"</body>",
+		"</html>",
+		],
+	
+		"description": "html 기본 형식 설정"
 }
 ```
 
